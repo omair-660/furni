@@ -209,6 +209,9 @@ margin-top: 20px;
 .contact .image {
     top: -177px;
 }
+.contact .image img{
+    width: 100%;
+}
 .contact p ,.contact a{
     font-size: 14px;
     color: #616161;
@@ -231,4 +234,15 @@ margin-top: 20px;
 .custom-social li a:hover {
     background: #3b5d50;
     color: #ffffff;
+}
+@media (max-width:767px) {
+    .contact .image img{
+        width: 75%;
+    }
+
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
 }
